@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+
+body{
+    font-family: 'Noto Serif', serif;
+    color: #000000;
+}
+
+a{
+    text-decoration: none;
+    color: #000000;
+}
+
+/******HEADER******/
+
+.top-nav-bar li{
+    padding: 10px;
+}
+
+.top-nav-bar ul, nav ul{
+    display: flex;
+    justify-content: center;
+}
+
+.top-nav-bar a{
+    font-size: 12px;
+}
+
+.img-la-capital{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+nav ul{
+    background-color: #000A2F;
+}
+
+nav li{
+    padding: 15px;
+}
+
+nav a{
+    font-size: 16px;
+    color: #ffffff;
+}
+
+nav a:hover{
+    color: #FFCC00;
+}
+
+/******MAIN******/
+
+/*PRIMERAS NOTICIAS*/
+
+.main-content{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+}
+
+.main-content a{
+    margin: 20px;
+}
+
+.main-content a:hover h2{
+    color: #005ce6
+}
+
+.content-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    flex: 1;
+    border: 1px solid #e6e6e6;
+    border-radius: 5px;
+    padding: 10px;
+    min-height: 610px;
+}
+
+.items-content-1 h2{
+   font-size: 30px;
+   padding: 0 0 5px 0;
+   text-align: center;
+}
+
+.items-content-1{
+   line-height: 1.2;
+   padding: 0 0 5px 0;
+}
+
+.img-content-1, .img-content-1 img{
+    width: 100%;
+    height: auto;
+}
+
+/*SEGUNDAS NOTICIAS*/
+
+.second-content{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    gap: 30px;
+    padding: 20px;
+}
+
+.second-content a{
+    flex: 1;
+}
+
+.content-2{
+    border: 1px solid #e6e6e6;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.content-2 h3, .content-2 p{
+    padding: 10px;
+}
+
+.content-2 h3{
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+.second-content a:hover h3{
+    color: #005ce6
+}
+
+/******FOOTER******/
+
+footer{
+    display: flex;
+    background-color: #000A2F;
+}
+
+.seguinos img{
+    fill: #ffffff;
+    
+}
